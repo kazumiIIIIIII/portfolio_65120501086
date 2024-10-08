@@ -1,0 +1,86 @@
+h1{ 
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 30pt;
+    background-color: rgb(244, 215, 167);
+    color: rgb(58, 58, 60);
+    text-align: center;
+}
+
+h3{ 
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 12pt;
+    color: rgb(58, 58, 60);
+    text-align: left;
+
+}
+
+#blacktext {
+    border: 2px solid rgb(177, 109, 45);
+    border-radius: 50px; 
+    width: 1300px;
+    display: inline-block;
+    padding-top: auto;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    border: 2px solid rgb(177, 109, 45);
+    padding: 10px; 
+}
+
+.image-wrapper {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.image-wrapper img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+#bluetext {
+    text-align: center;
+}
+
+.redtext {
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 13pt;
+    color: rgb(58, 58, 60);
+    text-align: center;
+}
+
+.pinktext {
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 17pt;
+    color: rgb(58, 58, 60);
+    text-align: left;
+}
+
+
+.browntext {
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 20pt;
+    background-color: rgb(244, 215, 167);
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+h2 {
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 11pt;
+    color: rgb(58, 58, 60);
+    text-align: left;
+    border: 2px solid rgb(150, 145, 155);
+    width: 625px;
+    display: inline-block; 
+
+
+}
+

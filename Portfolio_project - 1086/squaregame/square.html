@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Game</title>
+    <link rel="stylesheet" href="square.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Square Game</h1>
+        <p id="instruction">Click all the squares within 30 seconds to win!</p>
+        <label for="squareCount">Number of Squares:</label>
+        <input type="number" id="squareCount" min="1" value="5">
+        
+        <label for="squareColor">Select Square Color:</label>
+        <input type="color" id="squareColor" value="#8d99ae">  <!-- กล่องเลือกสี -->
+    
+        <button id="startButton">Start</button>
+        <div id="gameBoard"></div>
+        <p id="resultMessage"></p>
+        <div id="timer">Time Left: 30s</div>
+    </div>
+
+    <img src="dance.gif" class="gif-bottom-right" alt="dance">
+
+    <script src="square.js"></script>
+</body>
+</html>
